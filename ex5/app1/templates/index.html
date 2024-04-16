@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surface Area of Cylinder</title>
+</head>
+<body>
+    <h1>Calculate Cylinder Surface Area</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="Calculate">
+    </form>
+
+    {% if result %}
+        <h2>Result:</h2>
+        <p>Radius: {{ result.radius }}</p>
+        <p>Height: {{ result.height }}</p>
+        <p>Surface Area: {{ result.surface_area }}</p>
+    {% endif %}
+</body>
+</html>
