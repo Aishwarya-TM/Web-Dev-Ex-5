@@ -1,5 +1,5 @@
 # Ex.05 Design a Website for Server Side Processing
-## Date:
+## Date:16.04.2024
 
 ## AIM:
 To design a website to find surface area of a Right Cylinder in server side.
@@ -98,6 +98,9 @@ urlpatterns = [
 </body>
 </html>
 ```
+## Output:
+![image](https://github.com/Aishwarya-TM/Web-Dev-Ex-5/assets/127846109/7a5b5f81-e0c2-4af7-9087-36bf437a10cf)
+
 
 ## RESULT:
 The program for performing server side processing is completed successfully.
